@@ -1,0 +1,23 @@
+git init --> to initialise
+
+git status
+
+to add file to staging --> git add -A;
+to add specific file--< git add <name of specific file>
+
+to commit --> git commit -m "comment"
+to push to remote --> git push origin <branchname>
+
+to pull from remote--> git pull origin <branchname>
+to change branch--> git checkout <branchname>
+to create branchName --> git checkout -b <branchname> // 
+
+to see difference between local branches-->git diff master test-branch
+to see the difference between local and remote branches-->git diff origin/master master
+
+
+to see the barnch --> git branch
+to see the log--> git log
+
+
+to change the repo name-->git remote set-url origin <urlfornewrepo>
